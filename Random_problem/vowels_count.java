@@ -6,6 +6,7 @@ public class vowels_count {
         System.out.print("Enter the string: ");
         String str = in.next();
         System.out.println(vowels(str));
+        in.close();
     }
     static int vowels(String str){
         str = str.toLowerCase();
